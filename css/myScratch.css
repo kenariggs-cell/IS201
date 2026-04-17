@@ -1,17 +1,30 @@
-/* Simple styles for Ultimate Frisbee page */
+/* PAGE LAYOUT (POSITIONING DIVS) */
+.page-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
+/* FONT FAMILY (REQUIREMENT) */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
     margin: 0;
-    padding: 20px;
 }
 
+/* FONT COLOR (REQUIREMENT) */
 h1, h2 {
     color: #2c3e50;
 }
 
+/* HEADER STYLING */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* BUTTON STYLE (STYLE #1) */
 .button {
     display: inline-block;
     padding: 10px 15px;
@@ -22,21 +35,30 @@ h1, h2 {
     margin: 5px;
 }
 
+/* BUTTON HOVER (STYLE #2) */
 .button:hover {
     background-color: #2980b9;
 }
 
+/* HERO IMAGE (STYLE #3) */
 .hero img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
+/* SECTION SPACING (STYLE #4) */
 .section {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
+/* VIDEO RESPONSIVENESS (STYLE #5) */
 iframe {
     max-width: 100%;
     border: none;
+}
+
+/* NAV BUTTON GROUP (EXTRA STYLE) */
+.nav-buttons {
+    margin-top: 10px;
 }
