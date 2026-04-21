@@ -18,10 +18,29 @@ h1, h2 {
     color: #2c3e50;
 }
 
+/* H1 STYLING */
+h1 {
+    font-size: 3em;
+}
+
+/* MY INTERESTS BANNER */
+.banner {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 3em;
+}
+
 /* HEADER STYLING */
 .header {
     text-align: center;
     margin-bottom: 20px;
+}
+
+/* HEADER H1 STYLING */
+.header h1 {
+    font-size: 2em;
 }
 
 /* BUTTON STYLE (STYLE #1) */
@@ -61,4 +80,12 @@ iframe {
 /* NAV BUTTON GROUP (EXTRA STYLE) */
 .nav-buttons {
     margin-top: 10px;
+}
+
+/* ALIGN LISTS TO LEFT */
+ul, ol {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
